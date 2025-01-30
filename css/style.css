@@ -1,0 +1,444 @@
+/* Common Css Start */
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+    padding:0;
+    line-height: 0.8px;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
+/* Common Css End */
+
+#navbarPart{
+    padding:20px 0px;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+
+}
+
+.navflex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width:234px;
+    height:60px;
+}
+
+.menu ul li{
+    display:inline-block;
+    padding-right:20px;
+}
+
+.menu ul li a{
+    font-family: "Raleway", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#fff;
+}
+
+/* Banner Part Css Start */
+#bannerPart{
+    background:#310471; 
+    padding-top:140px;
+}
+
+.bannerFlex{
+    display: flex;
+}
+
+.bannerText{
+    padding-top:120px;
+    font-family: "Raleway", serif;
+    color:#fff;
+}
+
+.bannerText h4{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.bannerText h1{
+    font-size:58.7px;
+    font-weight: 700;
+    line-height: 67px;
+    padding:20px 0px;
+}
+
+.bannerText h1 span{
+    font-size:58.7px;
+    font-weight: 400;
+    line-height: 67px;
+}
+
+.bannerText p{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right:60px;
+    padding-bottom: 24px;
+}
+
+/* Banner Part Css Start */
+/* La Agencia Part css Start */
+#agenciaOne{
+    padding:100px 0px;
+}
+
+.agenciaFlex{
+    display:flex;
+    justify-content: space-between;
+}
+
+.agenciaText{
+    font-family: "Raleway", serif;
+    color:#30006C;
+    margin-right:30px;
+    margin-top:40px;
+}
+
+.agenciaText h6{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom:15px;
+}
+
+.agenciaText h2{
+    font-size:50.7px;
+    font-weight: 400;
+    line-height: 58px;
+    padding-bottom: 1dvh;
+}
+.agenciaText h2 span{
+    font-weight: 700;
+}
+
+.agenciaText p{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.agenciaBlog{
+    width:539px;
+    margin-left:30px;
+}
+
+.agenciaBlog p{
+    font-family: "Raleway", serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:black;
+    margin-bottom:24px;
+}
+
+.agenciaBlog h6{
+    font-family: "Raleway", serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:black;
+    margin-bottom:28px;
+}
+.agenciaBlog h5{
+    font-family: "Raleway", serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:black;
+    margin-bottom:5px;
+}
+
+.agenciaBlog h4{
+    font-family: "Raleway", serif;
+    font-size:16px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#300370;
+}
+
+/* La Agencia Part css End */
+
+/* Digital Part css Start */
+#digitalPart{
+    background:#4D008B;
+    padding-top:130px;
+}
+
+.digitalTop{
+    width:628px;
+    font-family: "Raleway", serif;
+    color:#fff;
+}
+
+.digitalTop h6{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom:15px;
+}
+
+.digitalTop h2{
+    font-size:48px;
+    font-weight: 400;
+    line-height: 55px;
+    width:628px;
+    padding-bottom: 10px;
+}
+.digitalTop h2 span{
+    font-weight: 700;
+}
+
+.digitalTop p{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.digobottomFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.digibottomRight{
+    padding-left: 26px;
+}
+
+.dgbotrighticonFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon1{
+    width:166.5px;
+}
+.icon1 p{
+    font-family: "Raleway", serif;
+    font-size:18.7px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#F1EFD6;
+    width:90px;
+    text-align: center;
+    padding-left:20px;
+    padding-bottom:30px;
+}
+
+.rowGap{
+    padding-bottom: 20px;
+}
+
+/* Digital Part css End */
+/* Digital Marketing Part Css Start */
+
+#dmarketingPart{
+    padding: 130px 0px 120px 0px;
+}
+
+.dmarketingTop{
+    width:628px;
+    font-family: "Raleway", serif;
+}
+
+.dmarketingTop h6{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom:12px;
+    color:#30006C;
+}
+
+.dmarketingTop h2{
+    font-size:48px;
+    font-weight: 400;
+    line-height: 55px;
+    color:#30006C;
+    width:628px;
+    padding-bottom: 10px;
+}
+.dmarketingTop h2 span{
+    font-weight: 700;
+    color:#30006C;
+}
+
+.dmarketingTop p{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#30006C;
+    padding-bottom:34px;
+}
+
+.dmarBottom{
+    height:490px;
+}
+.dmarFlex{
+   display:flex; 
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.flexLeft, .flexRight{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .dmarBottom{
+    display:flex;
+    justify-content: space-between;
+    height:490px;
+}
+
+.dmarbLeft{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+}
+
+.dmarbLeft img{
+    width:100%;
+    height:100%;
+}
+.dmarbcenter{
+    width:45%;
+}
+
+.dmarbcenter img{
+    width:100%;
+    height:100%;
+}
+
+.dmarbRight{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+}
+
+.dmarbRight img{
+    width:100%;
+    height:100%;
+}
+
+.img4{
+    width:300px;
+}
+ */
+
+
+/* Digital Marketing Part Css Start */
+
+/* Experience Part css Start */
+#experiencePart{
+    background: url(../images/experiencebg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.expOverlay{
+    padding:130px 0px 120px 0px;
+    background:rgba(0, 0, 0, 0.8);
+}
+
+.expTop{
+    width:792px;
+    font-family: "Raleway", serif;
+}
+
+.expTop h6{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom:12px;
+    color:#F3F1D8;
+}
+
+.expTop h2{
+    font-size:48px;
+    font-weight: 400;
+    line-height: 55px;
+    color:#F3F1D8;
+    padding-bottom: 10px;
+}
+.expTop h2 span{
+    font-weight: 700;
+    color:#F3F1D8;
+}
+
+.expTop p{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#F3F1D8;
+    padding-bottom:34px;
+}
+
+.expBottom{
+    padding-top:44px ;
+    padding-left:150px;
+    padding-right:150px;
+}
+
+.expbotFlex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exIcon1{
+    text-align: center;
+}
+/* .imgText{
+    width:72px;
+} */
+
+.expImg1 h2{
+   font-family: "Montserrat", serif;
+   font-size:53.3px;
+   font-weight: 700;
+   line-height: 80px;
+   color:#F3F1D8;
+   padding-bottom: 10px;
+
+}
+
+.expImg1 p{
+    width:177px;
+    font-family: "Raleway", serif;
+    font-size:16px;
+    font-weight: 400;
+    line-height:24px;
+    color:#ffff;
+}
+
+
+/* Experience Part css End*/
+
