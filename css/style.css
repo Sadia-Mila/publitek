@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* Banner Part Css Start */
 #bannerPart{
-    background:#310471; 
+    background:#310471;
     padding-top:140px;
 }
 
@@ -311,48 +311,6 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
 }
 
-/* .dmarBottom{
-    display:flex;
-    justify-content: space-between;
-    height:490px;
-}
-
-.dmarbLeft{
-    display: flex;
-    flex-direction: column;
-    width:25%;
-}
-
-.dmarbLeft img{
-    width:100%;
-    height:100%;
-}
-.dmarbcenter{
-    width:45%;
-}
-
-.dmarbcenter img{
-    width:100%;
-    height:100%;
-}
-
-.dmarbRight{
-    display: flex;
-    flex-direction: column;
-    width:25%;
-}
-
-.dmarbRight img{
-    width:100%;
-    height:100%;
-}
-
-.img4{
-    width:300px;
-}
- */
-
-
 /* Digital Marketing Part Css Start */
 
 /* Experience Part css Start */
@@ -403,8 +361,8 @@ h1, h2, h3, h4, h5, h6, p{
 
 .expBottom{
     padding-top:44px ;
-    padding-left:150px;
-    padding-right:150px;
+    padding-left:145px;
+    padding-right:145px;
 }
 
 .expbotFlex{
@@ -416,9 +374,6 @@ h1, h2, h3, h4, h5, h6, p{
 .exIcon1{
     text-align: center;
 }
-/* .imgText{
-    width:72px;
-} */
 
 .expImg1 h2{
    font-family: "Montserrat", serif;
@@ -429,7 +384,6 @@ h1, h2, h3, h4, h5, h6, p{
    padding-bottom: 10px;
 
 }
-
 .expImg1 p{
     width:177px;
     font-family: "Raleway", serif;
@@ -438,7 +392,282 @@ h1, h2, h3, h4, h5, h6, p{
     line-height:24px;
     color:#ffff;
 }
-
-
 /* Experience Part css End*/
+/* Client Part Css Start */
+#clientPart{
+    padding:120px 80px;
+}
+
+.clientFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.clienttext{
+    width:50%;
+    font-family: "Raleway", serif;
+    color:#30006C;
+}
+
+.clienttext h6{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom:12px;
+}
+
+.clienttext h2{
+    font-size:48px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-bottom: 10px;
+}
+.clienttext h2 span{
+    font-weight: 700;
+    
+}
+.clienttext p{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom:34px;
+}
+.clienttext h6{
+    font-size:16px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom:24px;
+}
+
+.clienttext h5{
+    font-size:18.7px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.clientLogo{
+    width:50%;
+    padding-top:100px;
+}
+.clientLogoflex{
+    display: flex;
+    justify-content: space-between;
+}
+/* Client Part Css Start */
+/* Contact Part Css Start */
+#contactPart{
+    background: url(../images/contactbg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 54px;
+}
+
+.contactflex{
+    display: flex;
+    justify-content: space-between;
+}
+.contactLeft{
+    width:50%;
+}
+
+.contactRight{
+    width:50%;
+    padding-top:120px;
+}
+
+.contactRight{
+    width:542px;
+    font-family: "Raleway", serif;
+}
+
+.contactRight h6{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom:12px;
+    color:#F3F1D8;
+}
+
+.contactRight h2{
+    font-size:48px;
+    font-weight: 400;
+    line-height: 55px;
+    color:#F3F1D8;
+    padding-bottom: 10px;
+}
+.contactRight h2 span{
+    font-weight: 700;
+    color:#F3F1D8;
+}
+
+.contactRight p{
+    font-size:21.3px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#F3F1D8;
+    padding-bottom:20px;
+}
+.conRightbtn img{
+    padding:10px 0px;
+    margin-right:5px;
+}
+/* Contact Part Css Start */
+
+/* Empezado part Css Start */
+#empezadoPart{
+    padding:80px 0px;
+    position:relative;
+}
+
+.quotationFlex{
+    display: flex;
+}
+.quotationText{
+    margin: 0 auto;
+}
+
+.quotationLeft {
+    position: absolute;
+    top: 36%;
+    left: 18%;
+}
+
+.quotationText h2{
+    font-family: "Raleway", serif;
+    font-size:40px;
+    font-weight: 700;
+    line-height: 40px;
+    color:#310471;
+}
+.quotationText h2 span{
+    font-weight: 400;
+}
+.quotationRight {
+    position: absolute;
+    top: 35%;
+    right: 18%;
+}
+
+.quotationBottom p{
+    font-family: "Raleway", serif;
+    font-size:24px;
+    font-weight:400;
+    line-height:24px;
+    color:#310471;
+    text-align: center;
+
+}
+
+/* Empezado part Css End */
+
+#servicePart{
+    padding:40px 0px;
+    background:#4B0088;
+}
+
+.serviceFlex{
+    display:flex;
+    justify-content: space-between;
+}
+.serviceLeft, .serviceMiddle, .serviceRight{
+    width:30%;
+}
+.serviceLeft h2, .serviceMiddle h2, .serviceRight h2{
+    font-family: "Poppins", serif;
+    font-size:24px;
+    font-weight:400;
+    line-height:36px;
+    color:#fff;
+    padding-bottom: 22px;
+}
+.serviceLeft p{
+    font-family: "Raleway", serif;
+    font-size:14.7px;
+    font-weight:400;
+    line-height:25px;
+    color:#F3F1D8;
+    padding-right: 50px;
+}
+
+.serviceLeft p span{
+    color:#fff;
+    font-weight:700;
+    font-style: italic;
+}
+
+.serviceMiddle p{
+    font-family: "Raleway", serif;
+    font-size:14.7px;
+    font-weight:400;
+    line-height:29.3px;
+    color:#F3F1D8;
+    padding-right:100px;
+}
+
+.serviceRight p{
+    font-family: "Raleway", serif;
+    font-size:14.7px;
+    font-weight:400;
+    line-height:29.3px;
+    color:#F3F1D8;
+    padding-bottom:40px;
+    padding-right:200px;
+}
+/* Partner Part Css Start */
+
+#partnerPart{
+    padding:20px 0px;
+    background:#38227B;
+}
+.partnerFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.partnerMiddle img{
+    padding-right:20px;
+}
+.parmiddleFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Partner Part Css End */
+/* Footer Part Css Start */
+#footerPart{
+    padding:60px 0px;
+    background: #22036F;
+}
+.footerTop{
+    text-align: center;
+}
+.footerLogo img{
+   padding-bottom:50px;
+}
+.footerTop p{
+    font-family: "Arial", serif;
+    font-size:14.7px;
+    font-weight:400;
+    line-height:22px;
+    color:#fff;
+    padding-bottom:20px;
+}
+.fobottomFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerBottom p{
+    font-family: "Raleway", serif;
+    font-size:16px;
+    font-weight:400;
+    color:#F3F1D8;
+    line-height: 20px;
+}
+
+
+
+/* Footer Part Css End */
+
+
+
+
 
